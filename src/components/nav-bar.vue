@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="loader df" v-if="showLoader"><img src="../assets/imgs/Loader.gif" alt=""></div>
+        <div class="loader df" v-if="showLoader"><img src="../../assets/imgs/Loader.gif" alt=""></div>
         <div class="nav-wrapper">
             <div class="container">
                 <div class="df sb" style="padding: 0 30px;">
@@ -13,7 +13,7 @@
             <div class="container">
                 <nav>
                     <ul class="df" style="padding: 0 30px;">
-                        <li><a href=""><img style="width: 50px;" src="../assets/Brand_logo.png" alt=""></a></li>
+                        <li><a href=""><img style="width: 50px;" src="../../assets/Brand_logo.png" alt=""></a></li>
                         <div class="df">
                             <router-link to="/" @click.stop="FilterData('home')">Home</router-link>
                             <a @click.stop="FilterData('smartphones')">Mobile</a>

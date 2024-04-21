@@ -2,7 +2,7 @@
     <div>
      <nav-bar/>
      <div v-if="orderData.length < 1" class="df" style="height:90vh;flex-direction: column; gap: 40px">
-        <img style="width: 150px;" src="../assets/no_orders.png" alt="">
+        <img style="width: 150px;" src="../../assets/no_orders.png" alt="">
         <span class="cart-h">No Orders Placed</span>
         <router-link to="/">
             <button class="bkBtn">Continue Shopping</button>
@@ -64,7 +64,7 @@
             <button class="bkBtn">Continue Shopping</button>
         </router-link>
         <div v-if="orderSuccess">
-            <img class="order_place_img" src="../assets/Order_placed.jpg" alt="">
+            <img class="order_place_img" src="../../assets/Order_placed.jpg" alt="">
         </div>
      </div>
 </template>

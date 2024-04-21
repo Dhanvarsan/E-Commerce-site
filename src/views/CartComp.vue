@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div v-if="orderSuccess">
-                    <img class="order_place_img" src="../assets/Order_placed.jpg" alt="">
+                    <img class="order_place_img" src="../../assets/Order_placed.jpg" alt="">
                 </div>
             </div>
         </div>

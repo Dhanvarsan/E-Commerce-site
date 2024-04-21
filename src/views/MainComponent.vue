@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cus-toaster df"><span>{{ msg }} - Added to cart</span><img style="width: 20px;" src="../assets/imgs/Check_green.png" alt=""></div>
+                <div class="cus-toaster df"><span>{{ msg }} - Added to cart</span><img style="width: 20px;" src="../../assets/imgs/Check_green.png" alt=""></div>
             </div>
         </div>
         <div class="footer-wrapper">
